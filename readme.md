@@ -9,7 +9,7 @@
 ## Endpoints
 
 - POST /queue/{queue_name}/push - pushes the post body to the queue
-- GET /queue/{queue_name}/next - returns the if of next item in the queue and keep it from being redelivered until timeout if reached
+- GET /queue/{queue_name}/next - returns the ID of next item in the queue and keep it from being redelivered until timeout if reached
 - GET /queue/{queue_name}/item/{item} - returns the body of the next item
 - GET /queue/{queue_name}/item/{item}/ack - ack a item and remove it from the queue
 - GET /queue/{queue_name}/item/{item}/ack - nack a item and allow it to be delivered again
