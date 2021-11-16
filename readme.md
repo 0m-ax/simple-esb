@@ -20,7 +20,7 @@ sever.py - A HTTP server with JSON input transformer and XML output transformer
 
 producer.py - push messages to a HTTP instance from a input csv file as JSON
 ```
-python consumer.py data.csv
+python producer.py data.csv
 ```
 
 consumer.py - get messages from a HTTP instance and print them
